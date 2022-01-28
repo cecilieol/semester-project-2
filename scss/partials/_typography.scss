@@ -1,0 +1,54 @@
+body {
+  color: $heading-color;
+}
+
+.navbar-brand h1 {
+  font-family: $headings-font-family;
+  font-size: $h1-font-size;
+}
+
+h2,
+h3,
+h4 {
+  font-family: $headings-font-family;
+  color: $heading-color;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+p,
+label {
+  font-family: $text-font-family;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+}
+
+nav {
+  a {
+    font-family: $font-nav-links;
+    color: $link-color;
+  }
+}
+
+.active {
+  font-weight: 700;
+  color: $text-color;
+}

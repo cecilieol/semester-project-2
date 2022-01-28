@@ -1,0 +1,68 @@
+button,
+.btn {
+  border: none;
+  width: 150px;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: $button-green;
+  color: white;
+  box-shadow: 0 3px 6px (rgba(0, 0, 0, 0.1));
+
+  &:hover {
+    color: white;
+    background-color: $button-green-hover;
+  }
+}
+
+nav {
+  .navbar-toggler {
+    width: auto;
+    background-color: $primary-color;
+  }
+}
+
+.btn p {
+  margin: 0;
+  color: white;
+}
+
+.edit {
+  background-color: $button-purple;
+
+  &:hover {
+    background-color: $button-purple-hover;
+  }
+}
+
+.delete,
+.clear,
+.logout-btn {
+  background-color: $warning-red;
+
+  &:hover {
+    background-color: $warning-red-hover;
+  }
+}
+
+.button-group {
+  display: grid;
+}
+
+.clear,
+.browse,
+.add,
+.edit,
+.delete,
+.login,
+.logout-btn {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .logout-btn,
+  .clear,
+  .browse {
+    width: 50%;
+  }
+}

@@ -1,0 +1,15 @@
+.breadcrumbs {
+  width: 100%;
+  box-shadow: 0 3px 6px (rgba(0, 0, 0, 0.1));
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      padding: 10px 0px 10px 16px;
+    }
+  }
+}

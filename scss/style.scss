@@ -1,0 +1,30 @@
+@import "partials/variables";
+@import "partials/typography";
+@import "partials/nav";
+@import "partials/breadcrumbs";
+@import "partials/forms";
+@import "partials/buttons";
+@import "partials/containers";
+@import "partials/cart";
+@import "partials/footer";
+
+// Bootstrap default styles
+
+@import "../bootstrap-scss/functions";
+@import "../bootstrap-scss/variables";
+@import "../bootstrap-scss/root";
+@import "../bootstrap-scss/reboot";
+@import "../bootstrap-scss/type";
+@import "../bootstrap-scss/images";
+@import "../bootstrap-scss/code";
+@import "../bootstrap-scss/grid";
+@import "../bootstrap-scss/tables";
+@import "../bootstrap-scss/forms";
+@import "../bootstrap-scss/buttons";
+@import "../bootstrap-scss/button-group";
+@import "../bootstrap-scss/input-group";
+@import "../bootstrap-scss/custom-forms";
+@import "../bootstrap-scss/nav";
+@import "../bootstrap-scss/navbar";
+@import "../bootstrap-scss/card";
+@import "../bootstrap-scss/alert";

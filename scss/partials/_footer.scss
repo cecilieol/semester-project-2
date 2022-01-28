@@ -1,0 +1,23 @@
+main {
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: $primary-color;
+  text-align: center;
+  padding: 30px;
+  margin-top: auto;
+}
+
+.social-links .fab {
+  font-size: 40px;
+  margin: 15px;
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+    cursor: pointer;
+  }
+}
