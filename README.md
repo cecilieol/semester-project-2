@@ -26,7 +26,7 @@ Key skills used in this project:
 
 Clone the repository
 ```
-Clone repo
+git clone git@github.com:cecilieol/semester-project-2.git
 ```
 
 Open project with Live Server
